@@ -6,7 +6,7 @@
   <link href="https://zhoujian1996.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhoujian1996.github.io/"/>
-  <updated>2021-04-26T12:26:47.531Z</updated>
+  <updated>2021-04-26T13:02:59.882Z</updated>
   <id>https://zhoujian1996.github.io/</id>
   
   <author>
@@ -17,30 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第二篇文章</title>
+    <title>hexo文档的一些注意点</title>
     <link href="https://zhoujian1996.github.io/2021/04/26/di-er-pian-wen-zhang/"/>
     <id>https://zhoujian1996.github.io/2021/04/26/di-er-pian-wen-zhang/</id>
     <published>2021-04-26T07:10:10.000Z</published>
-    <updated>2021-04-26T12:26:47.531Z</updated>
+    <updated>2021-04-26T13:02:59.882Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;测试&lt;/li&gt;
-&lt;li&gt;测试&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/04/26/MzXYSlbR4sepyt8.png&quot;&gt;&lt;/p&gt;
-&lt;pre class=&quot; language-java&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h1 id=&quot;1、参考资料&quot;&gt;&lt;a href=&quot;#1、参考资料&quot; class=&quot;headerlink&quot; title=&quot;1、参考资料&quot;&gt;&lt;/a&gt;1、参考资料&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
         
       
     
     
     
     
-    <category term="测试" scheme="https://zhoujian1996.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="hexo的配置" scheme="https://zhoujian1996.github.io/tags/hexo%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
