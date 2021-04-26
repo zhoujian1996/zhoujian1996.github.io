@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>一航的博客</title>
+  <title>小周的网站</title>
   
-  <subtitle>一航的学习园地</subtitle>
+  <subtitle>小周の学习园地</subtitle>
   <link href="https://zhoujian1996.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhoujian1996.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://zhoujian1996.github.io/</id>
   
   <author>
-    <name>一航</name>
+    <name>小周</name>
     
   </author>
   
