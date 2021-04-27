@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="学习路线, Zero的网站">
+    <meta name="keywords" content="Spring笔记, Zero的网站">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>学习路线 | Zero的网站</title>
+    <title>Spring笔记 | Zero的网站</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://i.loli.net/2021/04/26/qD5CJgPzWv24pny.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://i.loli.net/2021/04/27/ydu5Ae6jKGYsT1w.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">学习路线</h1>
+                    <h1 class="description center-align post-title">Spring笔记</h1>
                 </div>
             </div>
         </div>
@@ -432,14 +432,23 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-                                <span class="chip bg-color">学习路线</span>
+                            <a href="/tags/Spring/">
+                                <span class="chip bg-color">Spring</span>
                             </a>
                         
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%A1%86%E6%9E%B6/" class="post-category">
+                                框架
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -448,7 +457,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-04-26
+                    2021-04-27
                 </div>
                 
 
@@ -457,14 +466,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    485
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    6 分
                 </div>
                 
 
@@ -479,185 +488,167 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><img src="https://i.loli.net/2021/04/26/qD5CJgPzWv24pny.jpg" alt="1"></p>
-<blockquote>
-<p>在本文中，根据<a target="_blank" rel="noopener" href="https://www.codesheep.cn/">程序羊</a>总结以及网上的一些介绍，总结下后端知识体系，方便学习以及<code>查缺补漏</code>。</p>
+                <p><img src="https://i.loli.net/2021/04/27/ydu5Ae6jKGYsT1w.jpg" alt="1.jpg"></p>
+<p><img src="https://i.loli.net/2021/04/27/aDAzOkMrGLEt1x6.png" alt="Spring知识体系.png"></p>
+<h2 id="1、参考资料"><a href="#1、参考资料" class="headerlink" title="1、参考资料"></a>1、参考资料</h2><ul>
+<li><a href="/download/Spring%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.doc">Spring学习笔记</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference">Spring中文文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.spring.io/spring-framework/docs/current/reference/html/index.html">Spring英文文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.yuque.com/lajinsinlearn/lpn02c/yh6l2w">狂神说课程笔记</a></li>
+<li><a target="_blank" rel="noopener" href="https://mybatis.org/spring/zh/getting-started.html">Spring整合MyBatis</a></li>
+</ul>
+<h2 id="2、Spring介绍"><a href="#2、Spring介绍" class="headerlink" title="2、Spring介绍"></a>2、Spring介绍</h2><h3 id="2-1、Spring优良特性"><a href="#2-1、Spring优良特性" class="headerlink" title="2.1、Spring优良特性"></a>2.1、Spring优良特性</h3><blockquote>
+<ul>
+<li><code>非侵入式</code>：基于Spring开发的应用中的对象可以不依赖于Spring的API</li>
+</ul>
 </blockquote>
-<p>整个知识体系如下面的<a target="_blank" rel="noopener" href="https://www.processon.com/mindmap/607ec61ef346fb647a63196d">思维导图</a>所示:</p>
-<p><img src="https://i.loli.net/2021/04/26/YqOmwfjxPEgMNRh.png" alt="学习路线 _1_.png"></p>
-<p>可以从下面几点出发：</p>
-<hr>
-<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a><code>基础知识</code></h2><ul>
-<li><code>计算机网络</code></li>
-<li><code>数据结构与算法</code><ul>
-<li>数组/字符串/链表/队列/栈/堆/二叉树/哈希表</li>
-<li>排序/查找/贪心/递归/动态规划</li>
-<li><code>LeetCode要整理300道出来</code></li>
-</ul>
-</li>
-<li><code>操作系统</code></li>
-</ul>
-<h2 id="Java语言"><a href="#Java语言" class="headerlink" title="Java语言"></a><code>Java语言</code></h2><ul>
-<li>Java语法</li>
-<li>JVM知识与调优</li>
-<li>如何编写Java高效</li>
-<li>JDK源码:<code>容器</code> <code>IO</code> </li>
-</ul>
-<h2 id="Spring系列"><a href="#Spring系列" class="headerlink" title="Spring系列"></a><code>Spring系列</code></h2><ul>
-<li>Spring</li>
-<li>Spring MVC</li>
-<li>Spring Boot</li>
-<li>Spring Cloud</li>
-</ul>
-<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a><code>数据库</code></h2><ul>
-<li>MYSQL的语法</li>
-<li>事务、隔离级别以及底层实现</li>
-<li>索引、底层的数据结构</li>
-<li>锁以及底层实现</li>
-<li>ORM层框架<ul>
-<li><code>MYBATIS</code></li>
-<li><code>JPA</code></li>
-</ul>
-</li>
-<li>连接池<ul>
-<li>Druid</li>
-<li>C3P0</li>
-</ul>
-</li>
-<li>分库分表<ul>
-<li>MYCAT</li>
-<li>Sharding-JDBC</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="中间件技术"><a href="#中间件技术" class="headerlink" title="中间件技术"></a><code>中间件技术</code></h2><ul>
-<li>缓存Cache</li>
-<li>Redis：<code>源码的研究</code><ul>
-<li>本地缓存：GuavaCache <code>源码的研究</code></li>
-</ul>
-</li>
-<li>分布式缓存<ul>
-<li>缓存使用的一些原则</li>
-</ul>
-</li>
-<li>消息队列<ul>
-<li>RocketMQ</li>
-<li>KafKa</li>
-</ul>
-</li>
-<li>RPC框架<ul>
-<li>Dubbo: 源码</li>
-<li>手写</li>
-<li>与Netty相关的技术</li>
-</ul>
-</li>
-<li>搜索引擎技术<ul>
-<li>ElasticSearch</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="分布式与微服务"><a href="#分布式与微服务" class="headerlink" title="分布式与微服务"></a><code>分布式与微服务</code></h2><ul>
-<li><p>服务注册与发现</p>
+<blockquote>
 <ul>
-<li>Eureka</li>
-<li>Zookeeper</li>
-<li>Nacos</li>
+<li><code>控制反转：IOC</code>——Inversion of Control，指的是将对象的创建权交给 Spring 去创建。使用 Spring 之前，对象的创建都是由我们自己在代码中new创建。而使用 Spring 之后。对象的创建都是由给了 Spring 框架。</li>
 </ul>
-</li>
-<li><p>网关</p>
+</blockquote>
+<blockquote>
 <ul>
-<li>Zuul</li>
-<li>GateWay</li>
+<li><code>依赖注入：DI</code>——Dependency Injection，是指依赖的对象不需要手动调用 setXX 方法去设置，而是通过配置赋值。</li>
 </ul>
-</li>
-<li><p>服务调用/负载均衡</p>
+</blockquote>
+<blockquote>
 <ul>
-<li>Ribbon</li>
-<li>Feign</li>
+<li><code>面向切面编程</code>：Aspect Oriented Programming——AOP</li>
 </ul>
-</li>
-<li><p>熔断/降级</p>
+</blockquote>
+<blockquote>
 <ul>
-<li>Hystrix</li>
-<li>Sentinel</li>
+<li><code>容器</code>：Spring 是一个容器，因为它包含并且管理应用对象的生命周期</li>
 </ul>
-</li>
-<li><p>配置中心‘</p>
+</blockquote>
+<blockquote>
 <ul>
-<li>Config</li>
-<li>Apollo</li>
-<li>Nacos</li>
+<li><code>组件化</code>：Spring 实现了使用简单的组件配置组合成一个复杂的应用。在 Spring 中可以使用XML和Java注解组合这些对象。</li>
 </ul>
-</li>
-<li><p>权限设置</p>
+</blockquote>
+<blockquote>
 <ul>
-<li>SpringSecurity</li>
-<li>OAuth2</li>
-<li>SSO</li>
+<li><code>一站式</code>：在 IOC 和 AOP 的基础上可以整合各种企业应用的开源框架和优秀的第三方类库（实际上 Spring 自身也提供了表述层的 SpringMVC 和持久层的 Spring JDBC）</li>
 </ul>
-</li>
-<li><p>分布式事务</p>
+</blockquote>
+<blockquote>
 <ul>
-<li><p>JAT接口</p>
+<li><strong>总结：Spring就是一个轻量级的控制反转（IOC）和面向切面编程（AOP）的容器（框架）！</strong></li>
+</ul>
+</blockquote>
+<h3 id="2-2、Spring体系结构"><a href="#2-2、Spring体系结构" class="headerlink" title="2.2、Spring体系结构"></a>2.2、Spring体系结构</h3><img src="https://i.loli.net/2021/04/27/jsO4D9iq2oxMe8Z.gif" alt="Spring体系结构" style="zoom:150%;" alight="left" />
+
+
+
+<h2 id="3、Spring-IOC容器"><a href="#3、Spring-IOC容器" class="headerlink" title="3、Spring IOC容器"></a>3、Spring IOC容器</h2><h3 id="3-1、IOC容器介绍"><a href="#3-1、IOC容器介绍" class="headerlink" title="3.1、IOC容器介绍"></a>3.1、IOC容器介绍</h3><ul>
+<li><p>Spring容器是Spring框架的核心。容器将创建对象，把它们连接在一起，配置他们，并管理它们的整个声明周期从创建到销毁</p>
 </li>
-<li><p>2PC</p>
+<li><p>依赖注入<code>（DI)</code>来管理组成一个应用程序的组件。这些对象被称为<code>Spring Beans,</code>通过<code>XML、Java</code>注解或Java代码来表示</p>
+</li>
+<li><p>下图是Spring如何工作的高级视图：</p>
 </li>
 </ul>
+<p><img src="https://i.loli.net/2021/04/27/97eX8r2JkwYqS4l.png" alt="Spring容器"></p>
+<ul>
+<li>Spring IOC容器利用Java的POJO类和配置元数据来生成完全配置和可执行的系统或应用程序</li>
+<li>依赖注入功能的容器，它可以创建对象、IOC容器负责实例化、定位、配置应用程序中的对象以及建立这些对象间的依赖。</li>
+<li>Spring 提供了以下两种不同类型的容器</li>
+</ul>
+<p><img src="https://i.loli.net/2021/04/27/RzsLQVM4HfAbqj6.png" alt="Spring中两种不同的容器"></p>
+<h3 id="3-2、IOC的本质-控制反转"><a href="#3-2、IOC的本质-控制反转" class="headerlink" title="3.2、IOC的本质-控制反转"></a>3.2、IOC的本质-控制反转</h3><blockquote>
+<p> 控制反转：通常new一个实例，控制权由程序员控制，而“控制反转”是指new实例工作不由程序员来做而是交给Spring容器来做。</p>
+</blockquote>
+<blockquote>
+<p>IOC是一种编程思想，由主动的编程变成被动的接收，可以通过new ClassPathXMLApplicationContext去浏览一下底层源码。</p>
+</blockquote>
+<h3 id="3-3、IOC创建对象方式对比"><a href="#3-3、IOC创建对象方式对比" class="headerlink" title="3.3、IOC创建对象方式对比"></a>3.3、IOC创建对象方式对比</h3><p><strong>在Spring的发展历程中，有几种创建Bean的方式，分别是：</strong></p>
+<blockquote>
+<p><strong>（1）</strong> <code>自动化扫描以及装配Bean</code>(<code>@Configuration、@ComponentScan、@Scope、@Component、@Autowired、@Primary、@Qualifier</code>)</p>
+</blockquote>
+<blockquote>
+<p><strong>（2）</strong> 使用<code>JavaConfig</code>生成Bean并进行依赖注入（通常使用@Scope、@Bean)</p>
+</blockquote>
+<blockquote>
+<p><strong>（3）</strong><code>使用XML配置文件</code>（在xml配置文件中<bean> <property></property></bean>)</p>
+</blockquote>
+<p><code>装配建议</code></p>
+<p><strong>(1)</strong> 显示配置越少越好，尽可能使用自动装配机制</p>
+<p>**(2)**必须要显示配置Bean配置时，推荐使用JavaConfig</p>
+<p><strong>(3)</strong> 只有当你想要使用便利的XML命名空间，并且在JavaConfig中没有同样的实现时，才应该使用XML</p>
+<h3 id="3-4、自动化装配Bean-推荐使用这种方式"><a href="#3-4、自动化装配Bean-推荐使用这种方式" class="headerlink" title="3.4、自动化装配Bean(推荐使用这种方式)"></a>3.4、自动化装配Bean(推荐使用这种方式)</h3><p><code>Spring 从两个角度来实现自动化装配：</code></p>
+<ul>
+<li><p>组件扫描（Component Scanning):Spring会自动发现应用文上下文所创建的bean。</p>
 </li>
-<li><p>任务调度 Quartz</p>
-</li>
-<li><p>链路追踪和监控 Zipkin</p>
-</li>
-<li><p>日志分析与监控 ELK</p>
+<li><p>自动装配（autowiring):Spring自动满足bean之间的依赖。</p>
 </li>
 </ul>
-<hr>
-<hr>
-<h2 id="开发知识与工具"><a href="#开发知识与工具" class="headerlink" title="开发知识与工具"></a>开发知识与工具</h2><ul>
-<li>集成开发环境IDEA<ul>
-<li>快捷键</li>
-<li>插件plugin</li>
-<li>DeBug</li>
-<li>偏好配置</li>
+<p>组件扫描和自动装配组合在一起就能发挥出强大的威力，它们呢个够将你的显示配置降低到最少。</p>
+<h4 id="3-4-1、-Configuration"><a href="#3-4-1、-Configuration" class="headerlink" title="3.4.1、@Configuration"></a>3.4.1、@Configuration</h4><p>@Configuration代表该类是一个配置类，类似我们的beans.xml，配置文件</p>
+<p>可以在这个配置类中：</p>
+<p>（1）定义@Bean 方法，创建bean</p>
+<p>（2）使用自定义@ComponentScan()自动扫描</p>
+<h4 id="3-4-2、-ComponentScan"><a href="#3-4-2、-ComponentScan" class="headerlink" title="3.4.2、@ComponentScan"></a>3.4.2、@ComponentScan</h4><p>@ComponentScan()该注解表示启动注解扫描，如果没有配置该注解属性的话，Spring容器默认会扫描与配置类相同的包。</p>
+<p> 该注解有几个属性：</p>
+<p>（1）<code>basePackages/value</code>：设置扫描的基础包，可以有多个</p>
+<p>（2）<code>basePackageClasses</code>: 设置扫描包中所包含的类或者接口</p>
+<p> <img src="https://i.loli.net/2021/04/27/wbHY9JeBFGM7mPu.png" alt="Spring配置类"></p>
+<h4 id="3-4-3、-Component-Service-Repository"><a href="#3-4-3、-Component-Service-Repository" class="headerlink" title="3.4.3、@Component/@Service/@Repository"></a>3.4.3、@Component/@Service/@Repository</h4><p>并不是，配置完这些注解，在容器中就有了这些bean,一定要开启扫包的位置配置（或者在@ComponentScan或者在beans.xml中配置）</p>
+<p>（1）一般要为每个注解配置一个属性name,否则默认会根据类名为其指定一个Id.</p>
+<p>（2）默认情况下组件扫描不会开启，要在配置类中开启组件扫描（设置组件扫描的路径覆盖@Component)</p>
+<p> <img src="https://i.loli.net/2021/04/27/JKGwXyVnfD2OxUM.png" alt="配置@Component的类"></p>
+<h4 id="3-4-5、依赖注入：自动化装配-Autowire和-Value"><a href="#3-4-5、依赖注入：自动化装配-Autowire和-Value" class="headerlink" title="3.4.5、依赖注入：自动化装配@Autowire和@Value"></a>3.4.5、依赖注入：自动化装配@Autowire和@Value</h4><p>（1）@Value:为字符串/整型等注入常量值。</p>
+<p>（2）@Autowired: 按照类型为类中的对象注入依赖（若容器中有且仅有一个该类型的对象）</p>
+<ul>
+<li>@Autowired可以直接加在变量上修饰<ul>
+<li>@Autowired 可以加在构造器上为构造器的变量注入依赖</li>
+<li>@Autowired可以加在set方法上为set方法的变量注入依赖</li>
+<li>@Autowired可以加在普通方法上为普通方法入注入依赖</li>
+<li>@Autowired有个属性required表示是该依赖是</li>
 </ul>
 </li>
-<li>Linux系统<ul>
-<li>常用命令</li>
-<li>Shell脚本</li>
-<li>基础知识</li>
+</ul>
+<p><img src="https://i.loli.net/2021/04/27/E1JhjIBYV5SXeO2.png" alt="@Autowired用法"></p>
+<h3 id="3-5、使用JavaConfig显示装配：-Bean和-Scope"><a href="#3-5、使用JavaConfig显示装配：-Bean和-Scope" class="headerlink" title="3.5、使用JavaConfig显示装配：@Bean和@Scope"></a>3.5、使用JavaConfig显示装配：@Bean和@Scope</h3><p>有时对于一些第三方的包或者不是本项目中的一些类，很难实现包的扫描，这时就需要Java配置进行显示装配：此时使用到注解@Bean</p>
+<p>有时对于一些第三方的包或者不是本项目中的一些类，很难实现包的扫描，这时就需要Java配置进行显示装配：此时使用到注解@Bean</p>
+<ul>
+<li><p>@Bean是一个方法级别上的注解，主要用在@Configuration注解的类里，添加bean的id默认为方法名</p>
+</li>
+<li><p>@Bean中有一些属性可以对其进行设置</p>
+<ul>
+<li><code>Name/value</code>:可以为该bean取名字</li>
 </ul>
 </li>
-<li>项目管理/构建工具<ul>
-<li>Maven</li>
-<li>Gradle</li>
+<li><p><code>initMethod</code>：bean的初始化之前的执行方法，该参数一般不怎么用，因为完全可以在代码中实现</p>
+<ul>
+<li><code>destoryMethod</code>:bean销毁执行的方法</li>
+<li><code>Autowire</code>:自动装配默认是不开启的，建议尽量不要开启，因为自动装配不能装配基本数据类型、字符串、数组等，这是自动装配的局限性，以及自动装配不如显示依赖注入精确</li>
 </ul>
 </li>
-<li>代码管理工具<ul>
-<li>SVN</li>
-<li>GIT</li>
-</ul>
+<li><p>可以使用@Scope注解来指定使用@Bean的scope</p>
 </li>
 </ul>
-<hr>
-<h2 id="运维知识"><a href="#运维知识" class="headerlink" title="运维知识"></a>运维知识</h2><ul>
-<li>Web服务器<ul>
-<li>Nginx</li>
-<li>Tomcat</li>
-</ul>
+<blockquote>
+<p><img src="https://i.loli.net/2021/04/27/FSENgC5ibJrLx64.png" alt="创建没有依赖的bean"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://i.loli.net/2021/04/27/uGnA5Zw7vB2gqly.png" alt="有依赖的创建bean(创建bean方法没有参数）"></p>
+</blockquote>
+<blockquote>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/04/bcc26348a5c23311.png" alt="有依赖的创建bean(创建bean方法有参数，推荐"></p>
+</blockquote>
+<h3 id="3-6、使用XML显示配置"><a href="#3-6、使用XML显示配置" class="headerlink" title="3.6、使用XML显示配置"></a>3.6、使用XML显示配置</h3><blockquote>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/04/e5f5a80112688417.png" alt="使用XML进行配置的格式"></p>
+</blockquote>
+<p>Spring现在有了强大的自动化配置和基于Java的配置，XML不应该再是你第一步选择了</p>
+<p>配置复杂Bean的时候可以使用，比如一个bean包含特别多的域。</p>
+<ul>
+<li><p>创建xml配置规范</p>
 </li>
-<li>CDN加速</li>
-<li>持续集成与持续部署 Jekins</li>
-<li>代码质量检查 SonarQube</li>
-<li>日志收集与分析 ELK</li>
-</ul>
-<hr>
-<h2 id="关注源码与性能"><a href="#关注源码与性能" class="headerlink" title="关注源码与性能"></a>关注源码与性能</h2><ul>
-<li>JDK源码与设计思想</li>
-<li>Spring源码及设计</li>
-<li>JVM细节及拍错</li>
-<li>高并发以及高可用</li>
+<li><p>通过bean标签声明<bean/></p>
+</li>
+<li><p>借助构造器/set方法配置依赖</p>
+</li>
 </ul>
 
                 
@@ -685,7 +676,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhoujian1996.github.io/2021/04/26/xue-xi-lu-xian/">https://zhoujian1996.github.io/2021/04/26/xue-xi-lu-xian/</a>
+                    <a href="https://zhoujian1996.github.io/2021/04/27/spring/">https://zhoujian1996.github.io/2021/04/27/spring/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -723,8 +714,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-                                    <span class="chip bg-color">学习路线</span>
+                                <a href="/tags/Spring/">
+                                    <span class="chip bg-color">Spring</span>
                                 </a>
                             
                         </div>
@@ -895,7 +886,7 @@
         repo: 'zhoujian1996.github.io',
         owner: 'zhoujian1996',
         admin: "zhoujian1996",
-        id: '2021-04-26T22-05-47',
+        id: '2021-04-27T15-10-10',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -923,9 +914,59 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2021/04/27/spring/">
+                    <div class="card-image">
+                        
+                        <img src="https://i.loli.net/2021/04/27/ydu5Ae6jKGYsT1w.jpg" class="responsive-img" alt="Spring笔记">
+                        
+                        <span class="card-title">Spring笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Spring的笔记、包括Spring IOC、Spring Aop
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%A1%86%E6%9E%B6/" class="post-category">
+                                    框架
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Spring/">
+                        <span class="chip bg-color">Spring</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2021/04/27/tu-jie-http-du-shu-bi-ji/">
                     <div class="card-image">
@@ -942,9 +983,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-27
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -962,54 +1003,6 @@
                     
                     <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
                         <span class="chip bg-color">计算机网络</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/04/26/leetcode-shua-ti-zong-jie-da-gang/">
-                    <div class="card-image">
-                        
-                        <img src="https://i.loli.net/2021/04/26/sUWSGRTjB6YVw9I.jpg" class="responsive-img" alt="LeetCode刷题总结大纲">
-                        
-                        <span class="card-title">LeetCode刷题总结大纲</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            LeetCode刷题过程的大纲
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-26
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%88%B7%E9%A2%98/" class="post-category">
-                                    刷题
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
                     </a>
                     
                 </div>
