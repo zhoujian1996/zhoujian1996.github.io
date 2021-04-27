@@ -6,7 +6,7 @@
   <link href="https://zhoujian1996.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhoujian1996.github.io/"/>
-  <updated>2021-04-26T15:54:55.919Z</updated>
+  <updated>2021-04-27T08:30:53.345Z</updated>
   <id>https://zhoujian1996.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《图解HTTP》读书笔记</title>
+    <link href="https://zhoujian1996.github.io/2021/04/27/tu-jie-http-du-shu-bi-ji/"/>
+    <id>https://zhoujian1996.github.io/2021/04/27/tu-jie-http-du-shu-bi-ji/</id>
+    <published>2021-04-27T07:10:10.000Z</published>
+    <updated>2021-04-27T08:30:53.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/04/27/15yqLTmpaPGkCvs.jpg&quot; alt=&quot;图解HTTP&quot;&gt;&lt;/p&gt;
+&lt;p&gt;电子书附件下载：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://zhoujian1996.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="计算机网络" scheme="https://zhoujian1996.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>学习路线</title>
@@ -70,7 +96,7 @@
     <link href="https://zhoujian1996.github.io/2021/04/26/leetcode-shua-ti-zong-jie-da-gang/"/>
     <id>https://zhoujian1996.github.io/2021/04/26/leetcode-shua-ti-zong-jie-da-gang/</id>
     <published>2021-04-26T07:10:10.000Z</published>
-    <updated>2021-04-26T15:59:54.946Z</updated>
+    <updated>2021-04-26T16:51:44.471Z</updated>
     
     
       
